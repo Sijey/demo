@@ -1,14 +1,43 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "questions": [
+    {
+      id: 1,
+      question: 'What capital of Ukraine?',
+      type: 'input',
+      answer: 'Kiev',
+    },
+    {
+      id: 2,
+      question: 'What capital of Poland?',
+      type: 'select',
+      answers: ['Warsaw', 'Krakow', 'Lublin'],
+      answer: 'Warsaw',
+    },
+    {
+      id: 3,
+      question: 'What capital of Germany?',
+      type: 'radio',
+      answers: ['Berlin', 'Munich',],
+      answer: 'Berlin',
+    },
+    {
+      id: 4,
+      question: 'What capital of France?',
+      type: 'input',
+      answer: 'Paris',
+    },
+    {
+      id: 5,
+      question: 'What capital of Italy?',
+      type: 'input',
+      answer: 'Rome',
+    },
+    {
+      id: 6,
+      question: 'Select countries that are in europe',
+      type: 'checkbox',
+      answers: ['France', 'Germany', 'Italy', 'Canada'],
+      answer: ['France', 'Germany', 'Italy'],
+    },
+  ]
 }
