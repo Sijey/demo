@@ -14,7 +14,7 @@
       "answer": "Warsaw"
     },
     {
-      id: 3,
+      "id": 3,
       "question": "What capital of Germany?",
       "type": "radio",
       "answers": ["Berlin", "Munich"],
